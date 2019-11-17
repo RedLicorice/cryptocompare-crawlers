@@ -2,3 +2,4 @@
 .idea
 .venv
 __pycache__
+all_coins_formatted.json
