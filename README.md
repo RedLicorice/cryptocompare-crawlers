@@ -1,6 +1,8 @@
-## Cryptocompare Crawlers
+## Cryptocurrency Crawlers
 
- Crawlers for the Cryptocompare API
+ Crawlers for Cryptocurrency-related APIs:
+ - Cryptocompare social stats
+ - Google Trends
 
 **Prerequisites**
 
@@ -16,6 +18,11 @@ Install required packages
 
 **Running**
 
-Launch driver.py to start scraping
+Launch driver.py to start scraping.
 
-```$ python3 driver.py```
+<commands> can be any combination of:
+
+- 'social' : Scrape social stats from cryptocompare
+- 'trends' : Scrape Google Trends history
+
+```$ python3 driver.py <commands>```

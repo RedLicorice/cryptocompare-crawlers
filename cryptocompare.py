@@ -4,6 +4,7 @@ import time
 import csv
 from symbols import SymbolManager
 import os
+from pytrends.request import TrendReq
 
 class Scraper:
 	results = []

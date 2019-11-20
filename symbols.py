@@ -17,3 +17,11 @@ class SymbolManager:
 		if not symbol in cls.data:
 			raise ValueError("No data found for symbol {}".format(symbol))
 		return cls.data[symbol]["Id"]
+
+	@classmethod
+	def getName(cls, symbol):
+		if not cls.data:
+			raise EnvironmentError("No data loaded")
+		if not symbol in cls.data:
+			raise ValueError("No data found for symbol {}".format(symbol))
+		return cls.data[symbol]["CoinName"]
